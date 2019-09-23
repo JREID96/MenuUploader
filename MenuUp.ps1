@@ -61,7 +61,7 @@ if($browseButton.Add_Click){
     Out-Null
 
     $OpenFileDialog = New-Object System.Windows.Forms.OpenFileDialog
-    $OpenFileDialog.initialDirectory = "C:\Users\$env:USERNAME\OneDrive - Keystone Industries\_Workstation"
+    $OpenFileDialog.initialDirectory = "C:\Users\$env:USERNAME\Company\_Workstation"
     $OpenFileDialog.filter = "PDF files (.pdf)| *.pdf*"
     $OpenFileDialog.ShowDialog() | Out-Null
     $OpenFileDialog.filename
